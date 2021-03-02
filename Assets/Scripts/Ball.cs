@@ -28,6 +28,12 @@ public class Ball : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision){
+        if(hasStarted){
+            GetComponent<AudioSource>().Play();
+        }
+    }
+
     private void LaunchOnMouseClick(){
         if (Input.GetMouseButtonDown(0)){
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush);
