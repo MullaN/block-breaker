@@ -220,7 +220,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 0.5}
     newSize: {x: 2.56, y: 0.64}
     adaptiveTilingThreshold: 0.5
@@ -229,13 +229,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.51158524, y: 0.5}
-      - {x: -0.5168524, y: 0.5}
-      - {x: -0.98762083, y: 0.2881317}
-      - {x: -0.9957423, y: 0.009577274}
-      - {x: 0.9974899, y: 0}
-      - {x: 1.0000987, y: 0.2959442}
-      - {x: 0.7768688, y: 0.38348556}
+    - - {x: 0.51158524, y: 0.2675823}
+      - {x: -0.5168524, y: 0.26758224}
+      - {x: -0.98762083, y: 0.04560882}
+      - {x: -0.9957423, y: -0.2632612}
+      - {x: 0.9974899, y: -0.26273322}
+      - {x: 1.0102038, y: 0.02310586}
+      - {x: 0.7465544, y: 0.15106761}
 --- !u!114 &455632758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,6 +578,7 @@ GameObject:
   - component: {fileID: 1721924816}
   - component: {fileID: 1721924818}
   - component: {fileID: 1721924819}
+  - component: {fileID: 1721924820}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -643,7 +644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721924815}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.84, y: 7.88, z: 0}
+  m_LocalPosition: {x: 8, y: 0.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -686,6 +687,19 @@ CircleCollider2D:
   m_Offset: {x: 0.0036101937, y: 0.012635261}
   serializedVersion: 2
   m_Radius: 0.20848373
+--- !u!114 &1721924820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721924815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f0127f92be943659f83e16a7da8460, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 455632758}
 --- !u!1 &1795604610
 GameObject:
   m_ObjectHideFlags: 0
