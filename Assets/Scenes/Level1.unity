@@ -7245,9 +7245,34 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
         type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
+        type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 455632758}
+    - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 38aa6ee5ca158495f805af6ac6220d41, type: 3}
+    - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9471ba564ada94dce99d6dcd04b542da, type: 3}
+    - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 49d7ffeb665444b0ba0ef67f244c98e4, type: 3}
+    - target: {fileID: 2180575943121663307, guid: 2b583319127094a6394dfa16c7573ef6,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: a13c33b65e00d4a44aa4b2a077e5b9a9, type: 3}
     - target: {fileID: 2180575943121663310, guid: 2b583319127094a6394dfa16c7573ef6,
         type: 3}
       propertyPath: m_LocalPosition.x
