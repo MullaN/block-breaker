@@ -18,5 +18,6 @@ public class Block : MonoBehaviour
         AudioSource.PlayClipAtPoint(breakSound, Camera.main.transform.position);
         Destroy(gameObject);
         level.RemoveBreakableBlocks();
+        FindObjectOfType<GameStatus>().AddToScore();
     }
 }
