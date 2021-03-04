@@ -33,7 +33,7 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision){
+    private void OnCollisionEnter2D(Collision2D collision) {
         if (hasStarted) {
             AudioClip clip = ballSounds[Random.Range(0,ballSounds.Length)];
             myAudioSource.PlayOneShot(clip);
